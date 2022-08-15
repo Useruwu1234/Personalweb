@@ -1,20 +1,42 @@
+body {
+  background: linear-gradient(#2b1055, #465b88);
+}
+
+body ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+body ul li a:hover {
+  background: #2b4865;
+  color: #2b1055;
+}
+
 .jumbotron {
   padding-top: 100px;
-  background-color: #a5c9ca;
 }
 
-#prestasi {
-  background-color: #a5c9ca;
+#about {
+  padding: 250px;
+}
+#project {
+  margin-bottom: 100px;
 }
 
-#social {
-  padding: 100px;
-  background-color: #a5c9ca;
+.social {
+  padding-left: 100px;
+}
+.tombol {
+  padding-left: 20px;
 }
 
 footer {
-  background-color: #100720;
+  padding-bottom: 100px;
+  background-color: black;
 }
+
 section {
   padding-top: 5rem;
 }
